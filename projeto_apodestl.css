@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(./East\ Urban\ Home\ Binary\ Code\ Semi-Gloss\ Wallpaper\ Roll.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px 700px;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
