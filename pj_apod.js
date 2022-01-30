@@ -1,7 +1,6 @@
-$("submit").click(function(event){
+$("#submit").click(function(event){
     event.preventDefault();
     pesquisar();
-})
 
 function pesquisar(){
     var data = document.getElementById("data").value;
@@ -13,3 +12,4 @@ function pesquisar(){
         $('#copyright').text(data.copyright);
     }})
 }
+})
