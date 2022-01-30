@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./projeto_apodestl.css">
-    <script src="./jquery-3.6.0.min.js"></script>
     <script src="./pj_apod.js"></script>
-    <title>Document</title>
+    <title>APOD</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <center>
-        <main>
-            <form action= "javascript: pesquisar()">
+        <main class="principal">
+            <h1>Foto Astonômica do Dia</h1>
+            <form>
                 <label for="date" >Escolha uma data</label>
-                <input id= "data" type="date" name="date">
-                <input id= "submit" type="submit" value= "Pesquisar">
+                <input type="date" name="data" id="data">
+                <button id= "submit" onclick="pesquisar()">Pesquise aqui</button>
             </form>
+            <div class="nasa">
+                <img src="" alt="" id="img">
+                <br>
+                <h2 id= "title"></h2>
+                <br>
+                <p id="explanation"></p>
+                <br>
+                <p id="copyright"></p>
+            </div>
             <footer>
-                - by ©Eliane Cristina Nunes Correia -
+                - The Fornax Cluster of Galaxies - Crédito de imagem e direitos autorais : Marco Lorenzi , Angus Lau, Tommy Tse -
+                <br>
+                - by Eliane Cristina Nunes Correia -
                 <br>
                 - Curso Resília - Webdev - Projeto de Encerramento do Módulo 1 - 
                 <br>
